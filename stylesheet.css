@@ -1,6 +1,7 @@
 body{
    background-color:#eceff1;
    width: 100vmax;
+   height:auto;
    margin: 0;
    padding: 0;
 }
@@ -55,7 +56,6 @@ body{
    height: auto; 
    display: flex; 
    flex-wrap:wrap;
-   width: 100vmax; 
 }
 #News{
    margin: 30px auto; 
