@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+   <head>
+      <title>The Brighton Times</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      <link type="text/css" rel="stylesheet" href="stylesheet.css">
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <div class="head">
+         <div class="logo">
+            <img src="images/city.png" width="80" height="80" alt="city">
+         </div>
+         <div class="heading">
+            <h1 class="h1Head">The Brighton Times</h1>
+         </div>
+      </div>
+      <!--navigation-->
+
+      <nav class="nav nav-pills nav-justified">
+         <a class="nav-item nav-link" href="#">News</a>
+         <a class="nav-item nav-link" href="#">Events</a>
+         <a class="nav-item nav-link" href="#">Culture</a>
+         <a class="nav-item nav-link" href="#">Blog</a>
+      </nav>
+
+      <h1 id="News">News</h1>
+
+      <div class="CardLGContainer">
+
+         <div class="cardContainer">
+            <div class="card" style="width: 20rem;">
+               <img class="card-img-top" src="images/dog.jpg" alt="Card image cap">
+               <div class="card-body">
+                  <h4 class="card-title">Breaking news</h4>
+                  <p class="card-text">Kim X have a new puppet!!</p>
+                  <a href="#" class="btn btn-primary">read more!</a>
+               </div>
+            </div>
+         </div>
+
+         <div class="listGroupContainer">
+            <ul class="list-group">
+               <li class="list-group-item">Top News</li>
+               <li class="list-group-item list-group-item-light">Interesting news 1<span style="float: right"><a href="#" class="btn btn-primary">read more</a></span></li>
+               <li class="list-group-item list-group-item-light">Interesting news 2<span style="float: right"><a href="#" class="btn btn-primary">read more</a></span></li>
+               <li class="list-group-item list-group-item-light">Interesting news 3<span style="float: right"><a href="#" class="btn btn-primary">read more</a></span></li>
+               <li class="list-group-item list-group-item-light">Interesting news 4<span style="float: right"><a href="#" class="btn btn-primary">read more</a></span></li>
+               <li class="list-group-item list-group-item-light">Interesting news 5<span style="float: right"><a href="#" class="btn btn-primary">read more</a></span></li>
+               <li class="list-group-item list-group-item-light">Interesting news 6<span style="float: right"><a href="#" class="btn btn-primary">read more</a></span></li>
+               <li class="list-group-item list-group-item-light">Interesting news 7<span style="float: right"><a href="#" class="btn btn-primary">read more</a></span></li>
+               <li class="list-group-item list-group-item-light">Interesting news 8<span style="float: right"><a href="#" class="btn btn-primary">read more</a></span></li>
+            </ul>
+         </div>
+
+      </div>
+      <div class="scoresContainer">
+         <h1>Teams scores</h1>
+         <table class="table">
+            <thead>
+               <tr>
+                  <th scope="col">Date</th>
+                  <th scope="col">Location</th>
+                  <th scope="col">Team</th>
+                  <th scope="col" class="score"><p>Score</p></th>
+                  <th scope="col">Team</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th scope="row">Friday</th>
+                  <td>Brighton</td>
+                  <td>Bears</td>
+                  <td><p class="left">95</p> <p class="right">109</p></td>
+                  <td>Cubs</td>
+               </tr>
+               <tr>
+                  <th scope="row">Friday</th>
+                  <td>Worthington</td>
+                  <td>Otters</td>
+                  <td><p class="left">3</p> <p class="right">1</p></td>
+                  <td>Cubs</td>
+               </tr>
+               <tr>
+                  <th scope="row">Saturday</th>
+                  <td>Littlehampton</td>
+                  <td>Wolves</td>
+                  <td><p class="left">7</p> <p class="right">0</p></td>
+                  <td>Panthers</td>
+               </tr>
+               <tr>
+                  <th scope="row">Sunday</th>
+                  <td>Portslade</td>
+                  <td>Hawks</td>
+                  <td><p class="left">11</p> <p class="right">12</p></td>
+                  <td>Capons</td>
+               </tr>
+               <tr>
+                  <th scope="row">Sunday</th>
+                  <td>Hove</td>
+                  <td>Stags</td>
+                  <td><p class="left">6</p> <p class="right">2</p></td>
+                  <td>Foxes</td>
+               </tr>
+            </tbody>
+         </table>  
+      </div>
+      <div class ="weatherApp">  
+         <h1>Current Weather</h1>
+         <iframe src="https://nowos.github.io/Weather_app/" allowfullscreen></iframe>
+
+      </div>
+      <div class="latestNewsContainer">
+         <h1>Latest News</h1>
+         <ul class="list-unstyled">
+            <li class="media">
+               <img class="mr-3" src="http://www.riseprogramme.org/sites/www.riseprogramme.org/files/News-Icon.png" width="100" height="100" alt="News">
+               <div class="media-body">
+                  <h5 class="mt-0 mb-1">List-based media object</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+               </div>
+            </li>
+            <li class="media my-4">
+               <img class="mr-3" src="http://www.riseprogramme.org/sites/www.riseprogramme.org/files/News-Icon.png" width="100" height="100" alt="News">
+               <div class="media-body">
+                  <h5 class="mt-0 mb-1">List-based media object</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+               </div>
+            </li>
+            <li class="media">
+               <img class="mr-3" src="http://www.riseprogramme.org/sites/www.riseprogramme.org/files/News-Icon.png" width="100" height="100" alt="News">
+               <div class="media-body">
+                  <h5 class="mt-0 mb-1">List-based media object</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+               </div>
+            </li>
+         </ul>
+      </div>
+   </body>
+</html>
